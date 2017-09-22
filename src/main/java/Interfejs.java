@@ -56,7 +56,9 @@ public class Interfejs {
                     Float waga = Float.parseFloat(getUserInput());
                     kot.setWaga(waga);
                 } catch (NumberFormatException nu) {
+                    System.out.println("zly format");
                 }
+
             } else System.out.println("Blad w wadze");
             System.out.println(kot.getWaga());
         } while (kot.getWaga() == null);
