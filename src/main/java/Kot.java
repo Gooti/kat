@@ -9,6 +9,15 @@ public class Kot {
     Date dataUrodzenia;
     Float waga;
     String imieOpiekuna;
+    Integer numer;
+
+    public Integer getNumer() {
+        return numer;
+    }
+
+    public void setNumer(Integer numer) {
+        this.numer = numer;
+    }
 
     public String przedstawSie() {
         return "Kot to: " + imie + dataUrodzenia + waga + imieOpiekuna;
