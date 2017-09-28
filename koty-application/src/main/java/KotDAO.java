@@ -1,9 +1,12 @@
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Comarch on 2017-09-24.
  */
+@Repository
 public class KotDAO {
 
     List<Kot> koty = new ArrayList<Kot>();
